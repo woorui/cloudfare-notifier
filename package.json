@@ -1,0 +1,16 @@
+{
+  "name": "notifier",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler publish",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230419.0",
+    "@types/request-promise": "^4.1.48",
+    "itty-router": "^3.0.12",
+    "typescript": "^5.0.4",
+    "wrangler": "^3.0.0"
+  }
+}
